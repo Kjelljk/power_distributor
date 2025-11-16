@@ -1,16 +1,16 @@
 # Power Distributor: Sharing Power, Simply and Fairly
 
-The Power Distributor is a smart program designed to manage how multiple large appliances—like electric car chargers, heat pumps, or water heaters—share the available electricity in your home or building.
+The Power Distributor is a smart program designed to manage how multiple units share the available electrical power in a building.
 
-Its primary goal is to provide protection and fairness in your energy usage:
+Its primary goal is to provide fair distribution of power in your home:
 
-Protect Your System: It ensures you never draw more power than your main electrical supply can safely handle, preventing blown fuses and trips.
+Limit Maximum Loads: It ensures you never draw more power than your main electrical supply is designed for, preventing triped fuses.
 
-Ensure Fair Progress: It automatically balances the energy needs of all connected appliances so no single item monopolizes the supply, allowing all devices to make progress efficiently.
+Ensure Fair Distribution: It automatically balances the power for each unit so that all get their fair share.
 
 ## How the Program Works
 
-Think of the Power Distributor as a dedicated traffic cop for your electricity. It constantly watches the total amount of power being used by all your large appliances.
+Think of the Power Distributor as a dedicated traffic cop for your electricity. It constantly watches the total amount of power being used by all units.
 
 **1. The Safety Rules (Limits)**
 
@@ -18,11 +18,11 @@ The system is given two critical limits to follow:
 
 * **System Hard Limit (X):** This is the maximum total power your entire installation can safely use at any time. This is the absolute stop sign for combined usage.
 
-* **Individual Hard Cap (Y):** This is the maximum power any single appliance is ever allowed to draw, ensuring that even if one device is very power-hungry, it can't completely starve the others.
+* **Individual Hard Cap (Y):** This is the maximum power any single unit is allowed to draw.
 
 **2. Fair Distribution (The Sharing Principle)**
 
-When the total power usage gets close to the System Hard Limit (X), the Distributor steps in to share the remaining capacity fairly among all demanding appliances.
+When the total power usage gets close to the System Hard Limit (X), the Distributor steps in to share the capacity fairly among all demanding appliances.
 
 It applies a principle of proportional fairness:
 
@@ -40,6 +40,6 @@ The Distributor acts with "patience" when a spike occurs:
 
 * **Patience for Small Spikes:** If the combined power slightly exceeds the hard limit (e.g., by 5%), the Distributor will tolerate it for a short, set amount of time (e.g., several minutes). This often allows the temporary spike to subside on its own.
 
-* **Rapid Response for Large Spikes:** If the power significantly exceeds the limit (e.g., by 20%), the Distributor allows it for only a very short duration (e.g., 30 seconds). If the power hasn't dropped by then, the system quickly and gradually reduces the power supplied to the individual devices until the total usage is back below the safe limit.
+* **Rapid Response for Large Spikes:** If the power significantly exceeds the limit (e.g., by 20%), the Distributor allows it for only a very short duration (e.g., 30 seconds). If the power hasn't dropped by then, the system quickly and gradually reduces the power supplied to the individual unit until the total usage is back below the safe limit.
 
-**The result?** Your appliances get to run at the highest possible power level, maximizing performance and speeding up tasks like EV charging, all while the Distributor guarantees the continuous safety of your electrical infrastructure.
+**The result?** Your appliances get to run at the highest possible power level, maximizing performance and speeding up tasks like EV charging, all while the Distributor make sure that the continuous safety of your electrical infrastructure.
