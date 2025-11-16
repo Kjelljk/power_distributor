@@ -1,3 +1,4 @@
+# UNDER DEVELOPMENT - NOT TESTED
 # Power Distributor: Sharing Power, Simply and Fairly
 
 The Power Distributor is a smart program designed to manage how multiple units share the available electrical power in a building.
