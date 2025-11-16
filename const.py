@@ -1,7 +1,7 @@
 """Constants for the Power Distributor integration."""
 
 DOMAIN = "power_distributor"
-PLATFORMS = [SENSOR_DOMAIN] # <- NEW: Define the platforms used by this integration
+PLATFORMS = [SENSOR_DOMAIN] 
 
 # Configuration Keys (Sensor Entities - Actual Load)
 CONF_ENTITY_COMBINED_LOAD = "entity_combined_load"
@@ -24,8 +24,8 @@ CONF_RECOVERY_TIME_FAST = "recovery_time_fast"     # Time (T_recover) for OA to 
 CONF_RECOVERY_TIME_SLOW = "recovery_time_slow"     # Time (T_recover) for OA to recover 0->100% when at RATED load
 
 # Default Values (used in config_flow)
-DEFAULT_MAX_COMBINED_LOAD = 16.0
-DEFAULT_MAX_INDIVIDUAL_LOAD = 4.0
+DEFAULT_MAX_COMBINED_LOAD = 80.0
+DEFAULT_MAX_INDIVIDUAL_LOAD = 32.0
 DEFAULT_DELAY_5_PERCENT = 10.0
 DEFAULT_DELAY_20_PERCENT = 2.0
 DEFAULT_RAMP_5_PERCENT = 10.0
