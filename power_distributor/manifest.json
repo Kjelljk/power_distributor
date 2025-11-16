@@ -1,0 +1,11 @@
+{
+    "domain": "power_distributor",
+    "name": "Power Distributor",
+    "config_flow": true,
+    "documentation": "https://github.com/my_repo/power_distributor",
+    "issue_tracker": "https://github.com/my_repo/power_distributor/issues",
+    "dependencies": [],
+    "codeowners": ["@kjelljk"],
+    "requirements": [],
+    "version": "1.0.0"
+  }
